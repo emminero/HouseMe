@@ -1,0 +1,198 @@
+ /* Basic CSS styles */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: pacifico;
+    src: url(/fonts/pacifico/Pacifico.ttf);
+}
+
+@font-face {
+    font-family: merriweather;
+    src: url(/fonts/Merriweather/Merriweather-Regular.ttf);
+}
+
+h1,h2,h3 {
+    font-family: merriweather,Arial, sans-serif;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    padding-bottom: 5px;
+    color: #0f5470;
+    font-size: 30px;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #eee;
+}
+
+header {
+    background: linear-gradient(to right,#a34100, #a43201);
+    color: #fff;
+    padding: 5px;
+    text-align: left;
+}
+
+header img {
+    height: 30px;
+    float: left;
+    position: relative;
+    top: 10px;
+    margin-right: 0;
+    margin-left: 10px;
+}
+
+header h1 {
+    float: left;
+    font-family: pacifico, Arial, Helvetica, sans-serif;
+    font-size: 30px;
+}
+
+nav {
+    /* text-align: right; */
+    float: right;
+    position: relative;
+    top: 18px;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 18px;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:visited {
+    color: #fff;
+}
+
+.clear {
+    clear: both;
+}
+
+main {
+    padding: 20px;
+    text-align: center;
+    width: 768px;
+    background-color: #fff;
+    margin: 40px auto;
+    border-radius: 5px;
+}
+
+input, button {
+    margin: 5px;
+    padding: 10px;
+    width: 200px;
+    border: solid 1px #777;
+    border-radius: 5px;
+}
+
+div#input {
+    text-align: left;
+    margin: 0 auto;
+    width: 300px;
+}
+
+label {
+    margin-right: 5px;
+}
+
+label, select {
+    margin: 0 0 10px;
+}
+
+/* input::placeholder {
+    font-family: Arial, Helvetica, sans-serif;
+} */
+
+button {
+    border: solid 1px #eee;
+    color: #fff;
+    background-color: #a34100;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 20px;
+}
+
+button:hover {
+    background-color: #922c01;
+    border: solid 1px #ddd;
+    cursor: pointer;
+}
+
+/* footer {
+    background-color: #333;
+    font-size: 11px;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+} */
+
+
+/* search-results */
+
+.property {
+    border: solid 1px #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.search-image {
+    width: 130px;
+    margin-bottom: 10px;
+}
+
+.property h3 {
+    margin-top: 0;
+}
+
+.property button {
+    font-size: 12px;
+    width: 100px;
+    margin: 15px 0 5px;
+}
+
+.property h3, .property p {
+    margin-bottom: 5px;
+}
+
+
+/* property-details */
+
+.property-details {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.property-image{
+    width: 260px;
+    margin-bottom: 10px;
+}
+
+.property-details a button {
+    font-size: 12px;
+    width: 200px;
+    margin: 15px 30px 5px 0;
+}
+
+.property-details h3, .property-details p {
+    margin-bottom: 5px;
+}
+
+div.btn-center {
+    margin: 0 auto;
+}
